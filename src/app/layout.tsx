@@ -1,8 +1,18 @@
 import type { Metadata } from "next";
+import localfont from "next/font/local";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+
+const tusker = localfont({
+  src: [{
+    path:"../../public/fonts/TuskerGrotesk-2600Semibold.ttf",
+    weight: "2600",
+  },
+],
+variable: "--font-tusker",
+})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -15,7 +25,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${tusker.variable} font-sansmono`}>
       <body className={inter.className}>{children}</body>
     </html>
   );

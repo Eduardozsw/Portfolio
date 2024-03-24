@@ -2,18 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap');
+
 
 ::-webkit-scrollbar {
   display: none;
 }
 
-* {
-  font-family: "Signika", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-  font-variation-settings:
-    "GRAD" 0;
+.tela {
+  margin: 1%;
+}
+
+.dev {
+  margin-top: 10%;
+  overflow-y: hidden;
+}
+
+.borda {
+  width: 95%;
+  margin-left: 2.5%;
+}
+
+.container {
+  width: 150px;
+  height: 150px;
+  background: white;
+  border-radius: 30px;
 }
