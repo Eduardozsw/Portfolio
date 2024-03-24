@@ -22,7 +22,7 @@ export default function Home() {
             <h1 className="dev text-white text-8xl font-bold font-tusker">Desenvolvedor<br /> Front-end</h1>
             <h1 className="dev text-white text-5xl font-semibold font-tusker leading-normal">Olá, me chamo Carlos Eduardo Desenvolvedor <a className="underline decoration-pink-500">Web</a>
               e <a className="underline decoration-sky-500">Mobile</a><br /> apaixonado por <a className="underline decoration-indigo-500">
-                TypeScript</a>. Criando soluções inovadoras<br /> e eficientes para web e mobile. Let's code together!</h1>
+                TypeScript</a>. Criando soluções inovadoras<br /> e eficientes para web e mobile. Let&apos;s code together!</h1>
           </div>
         </div>
 
