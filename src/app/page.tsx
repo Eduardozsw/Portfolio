@@ -19,9 +19,9 @@ export default function Home() {
           <Navbar />
           <div className="borda border-b flex items-center justify-center h-full w-full"></div>
           <div className="flex flex-wrap justify-between text-center">
-            <h1 className="dev text-white text-8xl font-bold font-tusker">Desenvolvedor<br /> Front-end</h1>
-            <h1 className="dev text-white text-5xl font-semibold font-tusker leading-normal">Olá, me chamo Carlos Eduardo Desenvolvedor <a className="underline decoration-pink-500">Web</a>
-              e <a className="underline decoration-sky-500">Mobile</a><br /> apaixonado por <a className="underline decoration-indigo-500">
+            <h1 className="dev text-white text-6xl font-bold ">Desenvolvedor<br /> Front-end</h1>
+            <h1 className="dev text-white text-3xl font-semibold leading-normal">Olá, me chamo Carlos Eduardo Desenvolvedor <a className="underline decoration-pink-500">Web</a> e <a className="underline decoration-sky-500">
+              Mobile</a><br /> apaixonado por <a className="underline decoration-indigo-500">
                 TypeScript</a>. Criando soluções inovadoras<br /> e eficientes para web e mobile. Let&apos;s code together!</h1>
           </div>
         </div>
